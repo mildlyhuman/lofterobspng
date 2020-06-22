@@ -6,7 +6,7 @@ if len(sys.argv)==1:
     print('usage: python thisScript.py filename')
     exit(0)
 filename = sys.argv[1]
-try:mat = plt.imread('test.jpg')
+try:mat = plt.imread(filename)
 except: print('[error] cant open file {0}, abort.'.format(filename)); exit(1)
 
 mat = np.mean(mat, axis=2)[..., np.newaxis]  # gray scale
