@@ -8,7 +8,7 @@ Lofter显示缩略图时不考虑alpha通道，显示大图时不仅考虑alpha�
 
 python3：https://www.python.org/downloads/
 
-numpy：安装python3后在命令行（windows的cmd，OSX的terminal）输入`pip3 install --user numpy`并回车。如果pip3找不到，提换成pip。
+numpy：安装python3后在命令行（windows的cmd，OSX的terminal）输入`pip3 install --user numpy`并回车。如果pip3找不到，替换成pip。
 
 **使用**
 
